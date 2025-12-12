@@ -1,0 +1,38 @@
+import{test,expect} from '@playwright/test';
+test('SignUp Page Test',async({page})=>
+{
+ await page.goto("https://automationexercise.com/");
+ await page.waitForLoadState('networkidle');
+ await page.locator('.fa-lock').click();
+ const name = 'John Doe';
+ const email = 'sargam01@yopmail.com';
+ await page.getByPlaceholder('Name').fill(name);
+ await page.locator("input[data-qa='signup-email']").fill(email);
+ await page.getByRole('button',{name:'Signup'}).click();
+ await page.locator('#uniform-id_gender1').click();
+ await expect(page.locator('#name')).toHaveValue(name);
+ await expect(page.locator('#name')).toBeEnabled();
+ await expect(page.locator('#email')).toHaveValue(email);
+ await expect(page.locator('#email')).toBeDisabled();
+ await page.locator('#password').fill('Password123');
+ const day=page.locator('#days');
+ await day.selectOption('10');
+ const month=page.locator('#months');
+ await month.selectOption('5');
+ const year=page.locator('#years');
+ await year.selectOption('1990');
+ await page.locator('label[for="newsletter"]').check();
+ await expect(page.getByText('Address Information')).toBeVisible();
+ await page.locator('#first_name').fill('John');
+ await page.locator('#last_name').fill('Doe');
+ await page.locator('#company').fill('JD Solutions');
+ await page.locator('#address1').fill('123 Main St');
+ await page.locator('#address2').fill('Apt 4B');
+ const country=page.locator('#country');
+ await country.selectOption('India');
+ await page.locator('#state').fill('California');
+ await page.locator('#city').fill('Los Angeles');
+ await page.locator('#zipcode').fill('90001');
+ await page.locator('#mobile_number').fill('+1234567890');
+ await page.getByRole('button',{name:'Create Account'}).click(); 
+});
