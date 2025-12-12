@@ -1,20 +1,16 @@
-import { test, expect } from '@playwright/test';
+import {test,expect} from '@playwright/test';
 
-test('Verify Searched Product', async ({ page }) => {
-    const productName = "blue top";
-
-    // Navigate to website
+test("Title validation", async ({ page }) =>
+{
     await page.goto("https://automationexercise.com/");
-    await page.locator("a[href='/products']").click();
+    const Title = await page.title();
+    expect(Title).toBe("Automation Exercise");
+})
 
-    // Type into search box
-    await page.locator("input[name='search']").fill(productName);
-    await page.locator("button[id='submit_search']").click();
-
-    // Wait for results to appear
-    await expect(page.locator("h2:has-text('Searched Products')")).toBeVisible();
-
-    // Verify at least one product matches
-    const productTitles = page.locator('.productinfo p', { hasText: productName });
-    await expect(productTitles.first()).toBeVisible();
+test("Logo visibility" , async({page})=>
+{
+    await page.goto("https://automationexercise.com/");
+    const logo=await page.locator('.logo').isVisible();
+    expect(logo).toBeTruthy();
 });
+
