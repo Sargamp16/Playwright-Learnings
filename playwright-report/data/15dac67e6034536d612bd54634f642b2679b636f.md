@@ -1,0 +1,102 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e5]:
+      - link "Website for automation practice" [ref=e8] [cursor=pointer]:
+        - /url: /
+        - img "Website for automation practice" [ref=e9]
+      - list [ref=e12]:
+        - listitem [ref=e13]:
+          - link " Home" [ref=e14] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e15]: 
+            - text: Home
+        - listitem [ref=e16]:
+          - link " Products" [ref=e17] [cursor=pointer]:
+            - /url: /products
+            - generic [ref=e18]: 
+            - text: Products
+        - listitem [ref=e19]:
+          - link " Cart" [ref=e20] [cursor=pointer]:
+            - /url: /view_cart
+            - generic [ref=e21]: 
+            - text: Cart
+        - listitem [ref=e22]:
+          - link " Signup / Login" [ref=e23] [cursor=pointer]:
+            - /url: /login
+            - generic [ref=e24]: 
+            - text: Signup / Login
+        - listitem [ref=e25]:
+          - link " Test Cases" [ref=e26] [cursor=pointer]:
+            - /url: /test_cases
+            - generic [ref=e27]: 
+            - text: Test Cases
+        - listitem [ref=e28]:
+          - link " API Testing" [ref=e29] [cursor=pointer]:
+            - /url: /api_list
+            - generic [ref=e30]: 
+            - text: API Testing
+        - listitem [ref=e31]:
+          - link " Video Tutorials" [ref=e32] [cursor=pointer]:
+            - /url: https://www.youtube.com/c/AutomationExercise
+            - generic [ref=e33]: 
+            - text: Video Tutorials
+        - listitem [ref=e34]:
+          - link " Contact us" [ref=e35] [cursor=pointer]:
+            - /url: /contact_us
+            - generic [ref=e36]: 
+            - text: Contact us
+  - generic [ref=e39]:
+    - generic [ref=e41]:
+      - heading "Login to your account" [level=2] [ref=e42]
+      - generic [ref=e43]:
+        - textbox "Email Address" [ref=e44]
+        - textbox "Password" [ref=e45]
+        - button "Login" [ref=e46] [cursor=pointer]
+    - heading "OR" [level=2] [ref=e48]
+    - generic [ref=e50]:
+      - heading "New User Signup!" [level=2] [ref=e51]
+      - generic [ref=e52]:
+        - textbox "Name" [ref=e53]: John Doe
+        - textbox "Email Address" [ref=e54]: sargam01@yopmail.com
+        - paragraph [ref=e55]: Email Address already exist!
+        - button "Signup" [ref=e56] [cursor=pointer]
+  - contentinfo [ref=e57]:
+    - generic [ref=e62]:
+      - heading "Subscription" [level=2] [ref=e63]
+      - generic [ref=e64]:
+        - textbox "Your email address" [ref=e65]
+        - button "" [ref=e66] [cursor=pointer]:
+          - generic [ref=e67]: 
+        - paragraph [ref=e68]:
+          - text: Get the most recent updates from
+          - text: our site and be updated your self...
+    - paragraph [ref=e72]: Copyright © 2021 All rights reserved
+  - text: 
+  - generic:
+    - insertion:
+      - generic:
+        - iframe
+  - insertion [ref=e73]:
+    - iframe [ref=e76]:
+      - generic [active] [ref=f25e1]:
+        - generic [ref=f25e7]:
+          - generic [ref=f25e10]:
+            - generic "Polyworks India" [ref=f25e11]:
+              - link "Polyworks India" [ref=f25e12] [cursor=pointer]:
+                - /url: https://googleads.g.doubleclick.net/aclk?nis=4&sa=l&ai=CgStjUJ87abqjF_fcmsMP7-Tn2AbKqNq_gwGPsKrmyRX72I6PDBABIP20npUBYOX66IP4KaABlfbmiD_IAQGpAnPGqIaOw0c-qAMByAPLBKoE-wFP0GvY224comGMOuWRsNL1e4AV37mjXPQVQoFvSnyY3dwTEd3gqHA0w9MhfhDzQ2e00jSpN70vryAkKJWdJT70Pn9pcmfTpa3JVJ0hssknw4X-XAV5AimwOaAaPNhYZ1z9jiZksPJX5z5LmYp1iH5ngvW0HPKERJfG2lSYWLZnF3Ys3CKltGhVqYMcOcsmynCHgpHFca5i-DItW9KylY4IHg7INqqtflmJ0ojDU-qIO95TDZiARddt2_EuSgoUp62i_aB8Hya57lBcbszmk-XJ5YbM4xd5CVEy9TH6BLF_e9YhN1ubdqbPlGKnUKgU6daFu6dsUfo4kkKMHcAE3bj0ircFiAWSteTDVoAHla636BmoB6fMsQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB8qpsQKoB-ulsQKoB-qxsQKoB5m1sQKoB763sQKoB_jCsQKoB_vCsQLYBwHSCC8IgGEQARifAzIIioKAgICAgAg6DYBAgMCAgICAqIACqANIvf3BOliX9MCdoLeRA7EJYyiJPmWExOeACgGYCwHICwGiDAsqBgoE1tixApABAdoMEQoLEMC87sPS4eXx8QESAgEDqg0CSU7IDQHqDRMI98nPnaC3kQMVd65mAh1v8hlr8A0CiA4J2BMKiBQD0BUBmBYByhYCCgD4FgGAFwGyFwIYAboXAjgBshgJEgKdYxgBIgEA0BgBwhkCCAE&ae=1&ase=2&gclid=EAIaIQobChMIuovBnaC3kQMVd65mAh1v8hlrEAEYASAAEgLpGvD_BwE&num=1&cid=CAQSrAEAwksa0ZmtHxaKbsbvfZrKf6xkFSw84lEyFjvEwDVBan_nLUg0GKoGH7-ruHtKVTNnuKJyJTGYOgNy2Sqm7OBpzfZQRjXjZKhjWx7KdB6R9TNogE2eD30f3PzpUojXiQzvOtqS56BywlzNoGDmdLHy6Tdxqc60BFDmAHnCsri0hWXmBR-fSPMD5pH1M7e17-1pB4tM7-WaIRYhBxm6yh8Ik5DtD6z9a-MnGXoSGAE&sig=AOD64_1cc_ZIVYPUdjChXiD_oLC-8e_oUA&client=ca-pub-1677597403311019&rf=1&nb=1&adurl=https://www.polyworks.com/en-in/products/polyworks-dataloop%3Futm_source%3Dgoogle%26utm_medium%3Ddisplay%26utm_campaign%3Ddataloop_india%26utm_term%3D%26utm_content%3D782800685669%26utm_placement%3Dautomationexercise.com%26utm_device%3Dc%26utm_source%3Dgoogle%26utm_medium%3Ddisplay%26utm_campaign%3Ddataloop_india%26utm_term%3D%26utm_content%3D782800685669%26utm_placement%3Dautomationexercise.com%26utm_device%3Dc%26gad_source%3D5%26gad_campaignid%3D23227603602%26gclid%3DEAIaIQobChMIuovBnaC3kQMVd65mAh1v8hlrEAEYASAAEgLpGvD_BwE
+            - generic "Polyworks India" [ref=f25e13]:
+              - link "Connect Your Measurements" [ref=f25e14] [cursor=pointer]:
+                - /url: https://googleads.g.doubleclick.net/aclk?nis=4&sa=l&ai=CgStjUJ87abqjF_fcmsMP7-Tn2AbKqNq_gwGPsKrmyRX72I6PDBABIP20npUBYOX66IP4KaABlfbmiD_IAQGpAnPGqIaOw0c-qAMByAPLBKoE-wFP0GvY224comGMOuWRsNL1e4AV37mjXPQVQoFvSnyY3dwTEd3gqHA0w9MhfhDzQ2e00jSpN70vryAkKJWdJT70Pn9pcmfTpa3JVJ0hssknw4X-XAV5AimwOaAaPNhYZ1z9jiZksPJX5z5LmYp1iH5ngvW0HPKERJfG2lSYWLZnF3Ys3CKltGhVqYMcOcsmynCHgpHFca5i-DItW9KylY4IHg7INqqtflmJ0ojDU-qIO95TDZiARddt2_EuSgoUp62i_aB8Hya57lBcbszmk-XJ5YbM4xd5CVEy9TH6BLF_e9YhN1ubdqbPlGKnUKgU6daFu6dsUfo4kkKMHcAE3bj0ircFiAWSteTDVoAHla636BmoB6fMsQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB8qpsQKoB-ulsQKoB-qxsQKoB5m1sQKoB763sQKoB_jCsQKoB_vCsQLYBwHSCC8IgGEQARifAzIIioKAgICAgAg6DYBAgMCAgICAqIACqANIvf3BOliX9MCdoLeRA7EJYyiJPmWExOeACgGYCwHICwGiDAsqBgoE1tixApABAdoMEQoLEMC87sPS4eXx8QESAgEDqg0CSU7IDQHqDRMI98nPnaC3kQMVd65mAh1v8hlr8A0CiA4J2BMKiBQD0BUBmBYByhYCCgD4FgGAFwGyFwIYAboXAjgBshgJEgKdYxgBIgEA0BgBwhkCCAE&ae=1&ase=2&gclid=EAIaIQobChMIuovBnaC3kQMVd65mAh1v8hlrEAEYASAAEgLpGvD_BwE&num=1&cid=CAQSrAEAwksa0ZmtHxaKbsbvfZrKf6xkFSw84lEyFjvEwDVBan_nLUg0GKoGH7-ruHtKVTNnuKJyJTGYOgNy2Sqm7OBpzfZQRjXjZKhjWx7KdB6R9TNogE2eD30f3PzpUojXiQzvOtqS56BywlzNoGDmdLHy6Tdxqc60BFDmAHnCsri0hWXmBR-fSPMD5pH1M7e17-1pB4tM7-WaIRYhBxm6yh8Ik5DtD6z9a-MnGXoSGAE&sig=AOD64_1cc_ZIVYPUdjChXiD_oLC-8e_oUA&client=ca-pub-1677597403311019&rf=1&nb=0&adurl=https://www.polyworks.com/en-in/products/polyworks-dataloop%3Futm_source%3Dgoogle%26utm_medium%3Ddisplay%26utm_campaign%3Ddataloop_india%26utm_term%3D%26utm_content%3D782800685669%26utm_placement%3Dautomationexercise.com%26utm_device%3Dc%26utm_source%3Dgoogle%26utm_medium%3Ddisplay%26utm_campaign%3Ddataloop_india%26utm_term%3D%26utm_content%3D782800685669%26utm_placement%3Dautomationexercise.com%26utm_device%3Dc%26gad_source%3D5%26gad_campaignid%3D23227603602%26gclid%3DEAIaIQobChMIuovBnaC3kQMVd65mAh1v8hlrEAEYASAAEgLpGvD_BwE
+          - link "OPEN" [ref=f25e16] [cursor=pointer]:
+            - /url: https://googleads.g.doubleclick.net/aclk?nis=4&sa=l&ai=CgStjUJ87abqjF_fcmsMP7-Tn2AbKqNq_gwGPsKrmyRX72I6PDBABIP20npUBYOX66IP4KaABlfbmiD_IAQGpAnPGqIaOw0c-qAMByAPLBKoE-wFP0GvY224comGMOuWRsNL1e4AV37mjXPQVQoFvSnyY3dwTEd3gqHA0w9MhfhDzQ2e00jSpN70vryAkKJWdJT70Pn9pcmfTpa3JVJ0hssknw4X-XAV5AimwOaAaPNhYZ1z9jiZksPJX5z5LmYp1iH5ngvW0HPKERJfG2lSYWLZnF3Ys3CKltGhVqYMcOcsmynCHgpHFca5i-DItW9KylY4IHg7INqqtflmJ0ojDU-qIO95TDZiARddt2_EuSgoUp62i_aB8Hya57lBcbszmk-XJ5YbM4xd5CVEy9TH6BLF_e9YhN1ubdqbPlGKnUKgU6daFu6dsUfo4kkKMHcAE3bj0ircFiAWSteTDVoAHla636BmoB6fMsQKoB-LYsQKoB6a-G6gHzM6xAqgH89EbqAeW2BuoB6qbsQKoB47OG6gHk9gbqAfw4BuoB-6WsQKoB_6esQKoB6--sQKoB9XJG6gH2baxAqgHmgaoB_-esQKoB9-fsQKoB8qpsQKoB-ulsQKoB-qxsQKoB5m1sQKoB763sQKoB_jCsQKoB_vCsQLYBwHSCC8IgGEQARifAzIIioKAgICAgAg6DYBAgMCAgICAqIACqANIvf3BOliX9MCdoLeRA7EJYyiJPmWExOeACgGYCwHICwGiDAsqBgoE1tixApABAdoMEQoLEMC87sPS4eXx8QESAgEDqg0CSU7IDQHqDRMI98nPnaC3kQMVd65mAh1v8hlr8A0CiA4J2BMKiBQD0BUBmBYByhYCCgD4FgGAFwGyFwIYAboXAjgBshgJEgKdYxgBIgEA0BgBwhkCCAE&ae=1&ase=2&gclid=EAIaIQobChMIuovBnaC3kQMVd65mAh1v8hlrEAEYASAAEgLpGvD_BwE&num=1&cid=CAQSrAEAwksa0ZmtHxaKbsbvfZrKf6xkFSw84lEyFjvEwDVBan_nLUg0GKoGH7-ruHtKVTNnuKJyJTGYOgNy2Sqm7OBpzfZQRjXjZKhjWx7KdB6R9TNogE2eD30f3PzpUojXiQzvOtqS56BywlzNoGDmdLHy6Tdxqc60BFDmAHnCsri0hWXmBR-fSPMD5pH1M7e17-1pB4tM7-WaIRYhBxm6yh8Ik5DtD6z9a-MnGXoSGAE&sig=AOD64_1cc_ZIVYPUdjChXiD_oLC-8e_oUA&client=ca-pub-1677597403311019&rf=1&nb=8&adurl=https://www.polyworks.com/en-in/products/polyworks-dataloop%3Futm_source%3Dgoogle%26utm_medium%3Ddisplay%26utm_campaign%3Ddataloop_india%26utm_term%3D%26utm_content%3D782800685669%26utm_placement%3Dautomationexercise.com%26utm_device%3Dc%26utm_source%3Dgoogle%26utm_medium%3Ddisplay%26utm_campaign%3Ddataloop_india%26utm_term%3D%26utm_content%3D782800685669%26utm_placement%3Dautomationexercise.com%26utm_device%3Dc%26gad_source%3D5%26gad_campaignid%3D23227603602%26gclid%3DEAIaIQobChMIuovBnaC3kQMVd65mAh1v8hlrEAEYASAAEgLpGvD_BwE
+            - generic [ref=f25e18]:
+              - generic: OPEN
+              - img [ref=f25e19]
+        - img [ref=f25e25] [cursor=pointer]
+        - button [ref=f25e27] [cursor=pointer]:
+          - img [ref=f25e28]
+        - iframe
+```

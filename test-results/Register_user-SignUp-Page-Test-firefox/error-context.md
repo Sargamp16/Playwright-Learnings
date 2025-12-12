@@ -1,0 +1,94 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e5]:
+      - link "Website for automation practice" [ref=e8] [cursor=pointer]:
+        - /url: /
+        - img "Website for automation practice" [ref=e9]
+      - list [ref=e12]:
+        - listitem [ref=e13]:
+          - link " Home" [ref=e14] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e15]: 
+            - text: Home
+        - listitem [ref=e16]:
+          - link " Products" [ref=e17] [cursor=pointer]:
+            - /url: /products
+            - generic [ref=e18]: 
+            - text: Products
+        - listitem [ref=e19]:
+          - link " Cart" [ref=e20] [cursor=pointer]:
+            - /url: /view_cart
+            - generic [ref=e21]: 
+            - text: Cart
+        - listitem [ref=e22]:
+          - link " Signup / Login" [ref=e23] [cursor=pointer]:
+            - /url: /login
+            - generic [ref=e24]: 
+            - text: Signup / Login
+        - listitem [ref=e25]:
+          - link " Test Cases" [ref=e26] [cursor=pointer]:
+            - /url: /test_cases
+            - generic [ref=e27]: 
+            - text: Test Cases
+        - listitem [ref=e28]:
+          - link " API Testing" [ref=e29] [cursor=pointer]:
+            - /url: /api_list
+            - generic [ref=e30]: 
+            - text: API Testing
+        - listitem [ref=e31]:
+          - link " Video Tutorials" [ref=e32] [cursor=pointer]:
+            - /url: https://www.youtube.com/c/AutomationExercise
+            - generic [ref=e33]: 
+            - text: Video Tutorials
+        - listitem [ref=e34]:
+          - link " Contact us" [ref=e35] [cursor=pointer]:
+            - /url: /contact_us
+            - generic [ref=e36]: 
+            - text: Contact us
+  - generic [ref=e39]:
+    - generic [ref=e41]:
+      - heading "Login to your account" [level=2] [ref=e42]
+      - generic [ref=e43]:
+        - textbox "Email Address" [ref=e44]
+        - textbox "Password" [ref=e45]
+        - button "Login" [ref=e46] [cursor=pointer]
+    - heading "OR" [level=2] [ref=e48]
+    - generic [ref=e50]:
+      - heading "New User Signup!" [level=2] [ref=e51]
+      - generic [ref=e52]:
+        - textbox "Name" [ref=e53]: John Doe
+        - textbox "Email Address" [ref=e54]: sargam01@yopmail.com
+        - paragraph [ref=e55]: Email Address already exist!
+        - button "Signup" [ref=e56] [cursor=pointer]
+  - contentinfo [ref=e57]:
+    - generic [ref=e62]:
+      - heading "Subscription" [level=2] [ref=e63]
+      - generic [ref=e64]:
+        - textbox "Your email address" [ref=e65]
+        - button "" [ref=e66] [cursor=pointer]:
+          - generic [ref=e67]: 
+        - paragraph [ref=e68]:
+          - text: Get the most recent updates from
+          - text: our site and be updated your self...
+    - paragraph [ref=e72]: Copyright © 2021 All rights reserved
+  - text: 
+  - generic:
+    - insertion:
+      - generic:
+        - iframe
+  - insertion [ref=e73]:
+    - iframe [ref=e76]:
+      - iframe [ref=f24e1]:
+        - generic [ref=f25e2]:
+          - link "Advertisement" [ref=f25e4] [cursor=pointer]:
+            - /url: https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjsvj6wCCFukXcUPC41IPJBIdegMhbkLD0K60kbHZU7jcQPz0WO_TD1vefvUAnZSqQo7q3ctY5vPpP4HFveWyonmdmVFGaL44NKJ_GKqzFHVLLb5eOcAq6xhZzoHYpzO2Jgae3OeaQEQDwfRCya5YmzWf5nt7URQ_Eo0oZUSItDOertutc35c7kHJ6xtXNj6ORwJdjUnD48G5vL_4tqtWrRC01ZrnyaegqY2tBwCJxU8VyHr2oscWNqdrOyYRK1s7_86GRgYlTeeq7BC5b1_VpTnOGlsjEZKYJqsSGdglEL-8FdKQl-TlTRPIjAoUMhYzEk3YWqObimr7yLFxLeigi4A_ZI3xd5-mgEBKI0RPkJyUurjK0I2go5TOqRVMKqTYe6Iddd9S7AtaNp16-GcjgXsEvX3KaXuK5eSkBlaMyJVTBgwoBoptRImrO3hZHhV4Rmjna9luUBk8aRKv_XAWH6PfQ5i5UKu4gZt-sm_ErgeFa6ODTSglSD1r-eguwxaZxSMtkCcIXgYV2I5Uv8dCkZSi1oObfOf5wklU3f-OZiPp-T4pZ9-61dPzRspGZW3dyPIdeDRpSF3lGd_R_mFgVY-vGSJuBFLnbo82dU030ymU1hvRIDsL8O4elrolD3G9JRhjTM2aXVxxMMYDB39Iz8XmAnUT-YZiGdmvVlUudZOL1P42FiPZUkDw3B39LydesWZvgHgafDJ-AgazzYD6Wrt94IcEloBnjxA42m-d0xa8IXZzIAcvP_Y0fhTUOJ8w-JsaXBpJlvYT58t0dhHvqDxPupfqxo5qqPmVLRxxVFcLHnuTX8kIOXLzEx_0tqSokwum9XhMUSFkm297wj4o-70e85EwcydoX_tC1EY0VcJMa8tVDt_uqMbWoi4zTj3eWuUOR_HuYzLUkrgp8JHqsj-PV6x4dk682ebjyIr5x6YLtVUUu0t9V356D_u6Nt9u8-T63GZcL4-Hj_ilfnjbLCUPDdgVtTn4W2d4WkvnuXZrIKL73p1wsh1T1X1HlDQqswjF88gCvaN80vZEpiBYZmjI-aushdudfeGwJsLKAa6ArBilEJr2Am27BNYZB7lInl80YXflcvEYH69nTmUWjNaYzLP2wedDOVkkKeOK59iudQEezi7OVZYHMSvze-Hq1akicQRIDqcNBfRMoH_EpGFs-KPKa2UGdKAYqmF_NdBWpfh2-3OyDNGd-QJ8vezIFW6NSJIiQshNnvEy77AizuqauHhkdjVt3yYIRuqYxqj_gT4pgacQ5oJTxAj5LnqLwTsSnswtjSp09v2GVjj3Ul6H0VhMcaLgxNswolSWzz9cCKwlZAPZHXXNC-LO-QfBmk4S54lP9N13NvKJ3eJ1rcLJVqhdWMr5DneNnnYl5gEvWchAoKYWllJ5EoyyUsgVYRtAzQIZM4PQps2e9TdrFga_DDv1RJmV0UJKRMSacpE9GVZU9F7ct3gU3VGKKavDTD-BsULy0WEe3Ck5F7fkPraRrKsfk4WTYKnwCVL7oWBl54njvw3TFkdbqWaqvSFTB-KIqWrqT6Bf1ahiwOE9CQQG0BRgeINomoYPLcQQgI3Y0mBVkYkVhDqELYr7VE5Wp3IQPDGT_xTQvaPSYB-ydzqGUG6Iw9C-Aj1fATcKjXNPralzSO5teG6u_jTXmw5DxtBo6aVGV5HZXtKgBitDx8zM4eM1_NeI1rONtC43fYDPInNtPXMBfHXj9P7c_r8Qxxn1zOIq3bhA9HuxyN20x22tki_do2PMTDldN3OcqsE4_B0uw3kT7xqw-E98FwqOJED_c41sqTsXyvQaKeTV4VEyRel7aKZAlQ&sai=AMfl-YQ01VUbDnNK2IxqpFHMaBp1F6tIIfHBIYgEDeSx1M7IFk8FnanLFAUBvczV7OAYEaN5CUlmQKz4RI-UssSxpvESxxl_N91S3W0TtK7pJK2mIylB0Z6EtxuYuKFXHsn0wjYMjt0tv42AHnpYJqUkTdpFE3d4vyMUXEzRCvn4tRccSt3988qowaKkFBNXKbbH9cJmhCDQRUcDQWysFaYjl5ECzYGKTbS4W3FDjCA3EMeFviBtUZD5j-70Mi5F9CF1gnrWwZ4GdK5Zui6yxTSo0V0Vgwijk5HLJUubQMjG91qaX9eqaoL_1l0ilZVR0e-APBbexpLKFLw047jJSUg6W6bFw2WDh4Fm3QXCmjVoxqO028Zge1F0EVsQrFIHHW7kP-t13J0q2jTfQv-Pauu83jB83sTbVSmOxMdy5xivvqcBEgtgoT1rkDjfigsEX6r91uILHvtF8n889-3ON2j_LkLXPYbhFhohFoM2TEHQNa1WlfjiVqxhRKl06dd7OroGmRbErBu7ljM3jZb-5pU7XRJRMLSvHy73gEICvD_yEsxxqlKA-7tU0IzXl5k4x3xjQZkhYWvl90xc67hVEX3y2ReU24deSjzN5Q7WC5ggWmeeTW0nc-09EJbNDINEbJvpsw5Pc_t28P2T5Q&sig=Cg0ArKJSzMuttQOxx8iO&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=https://www.visitdubai.com/en/dubai-ready-for-a-surprise%3Futm_source%3Dprogrammatic%26utm_medium%3Ddisplay%26utm_campaign%3Dseasonalaonapac%26utm_term%3Dind-en_apacfamily%26utm_content%3Dconversion_banner728x90_OPXCADubai%26dclid%3D%25edclid!%26gad_source%3D7
+            - img "Advertisement" [ref=f25e5]
+          - generic [ref=f25e6]:
+            - generic:
+              - img [ref=f25e10] [cursor=pointer]
+              - button [ref=f25e12] [cursor=pointer]:
+                - img [ref=f25e13]
+```
